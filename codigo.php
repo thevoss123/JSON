@@ -14,6 +14,6 @@ $json_arr[]=array(
 'poderes' => $_REQUEST['poderes'],
 );
 file_put_contents($filename, json_encode($json_arr));
-header("Location:https://github.com/thevoss123/JSON.git");
+header("Location:https://thevoss123.github.io/JSON/");
 
 ?>
